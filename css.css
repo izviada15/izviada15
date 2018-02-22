@@ -1,0 +1,99 @@
+ul#nav {
+	width: 940px; list-style: none; overflow: hidden; margin: -134px auto 25px auto;
+}
+	ul#nav li {
+		width: 126px; height: 33px; float: left; padding: 13px 0 0 0;
+		background: url(images/nav-bg.png);
+		font-weight: bold; text-align: center; text-transform: uppercase;
+	}
+		ul#nav li:nth-child(1) {
+			margin: 0 60px 0 0;
+		}
+		ul#nav li:nth-child(2) {
+			margin: 0 316px 0 0;
+		}
+		ul#nav li:nth-child(3) {
+			margin: 0 60px 0 0;
+		}
+		ul#nav li:nth-child(4) {
+			margin: 0;
+		}
+
+		ul#nav li a {
+			color: #616369; text-decoration: none;
+		}
+			ul#nav li a:hover {
+				color: #a12121;
+			}
+#header {
+	height: 244px; padding: 52px 0 0 57px;
+	background-color: gray;
+	text-align:center;
+}
+
+/* just googled some generic good looking style font color etc looks for a lot of part of css, hope that's fine. */
+	#header h1 {
+		font: 38px Helvetica, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+		text-shadow: 0px 3px 3px #494949;
+		text-align: center;
+	}
+	#header h2 {
+		font: 38px Helvetica, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;	
+		text-shadow: 0px 3px 3px #494949;
+		text-align: center;
+	}
+	#header p.btn a {
+		display: block; width: 225px; height: 50px; overflow: hidden;
+		background-color: gray; text-indent: -9999px;
+		text-align:center;
+	}
+	
+#logo {
+		margin: 10px auto 40px auto; position: relative; width: 183px;
+}
+#main {
+	background: url(images/main-bg.png) repeat-y;
+	padding: 57px 69px 50px 69px; overflow: hidden;
+}
+	#main h2 {
+		font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+	}
+
+	#main h3 {
+		font: 26px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+	}
+	
+	#main p {
+		margin: 0 0 30px 0;
+	}
+	
+	#main a {
+		color: #a12121; text-decoration: none;
+	}
+		#main a:hover {
+			color: #671111;
+		}
+	
+#main .portfolio-item {
+	width: 182px; padding: 4px; background: #eee; text-align: center;
+	float: left; margin: 0 7px 14px 7px;
+}
+	#main .portfolio-item p.btn {
+		margin: 0;
+	}
+	#main .portfolio-item p.btn a {
+		display: block; width: 183px; height: 29px; padding: 7px 0 0 0;
+		background: url(images/see-more-bg.png);
+		font-weight: bold; text-align: center; text-transform: uppercase;
+		text-decoration: none;
+	}
+	
+	
+	
+#contact {
+	width: 430px; margin: 60px auto; padding: 60px 30px;
+	background: #c9d0de; border: 1px solid #e1e1e1;
+	-moz-box-shadow: 0px 0px 8px #444;
+	-webkit-box-shadow: 0px 0px 8px #444;
+}
+	
